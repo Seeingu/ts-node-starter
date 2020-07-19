@@ -25,7 +25,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: curl -L https://unpkg.com/@pnpm/self-installer | node
       - run: pnpm -v
-      - run: pnpm i
+      - run: pnpm i --no-prefer-frozen-lockfile
       - run: pnpm run build --if-present
       - run: pnpm test
         env:
