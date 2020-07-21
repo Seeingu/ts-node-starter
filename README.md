@@ -4,6 +4,8 @@ TypeScript Node starter demo
 
 ## Getting Started
 
+> You can create Github repository with this template
+
 1. Create Git repository
 
 2. Add this remote
